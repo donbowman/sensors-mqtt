@@ -6,7 +6,7 @@ over MQTT.
 
 The pre-requisits are paho-mqtt and sensors.py:
 
-    pip3 install paho-mqtt sensors.py
+    pip3 install paho-mqtt sensors.py pydbus
 
 After that, just run it.
 

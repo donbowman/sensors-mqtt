@@ -5,8 +5,6 @@ After=network.target
 [Service]
 ExecStart=/usr/bin/python3 /home/don/src/sensors-mqtt/sensors-pub.py --username light --password thgil --port 8883 --host mqtt.donbowman.ca
 Restart=on-failure
-SuccessExitStatus=3 4
-RestartForceExitStatus=3 4
 
 [Install]
 WantedBy=default.target
